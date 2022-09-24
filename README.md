@@ -1,6 +1,6 @@
 # HealthExamination
 
-## [ 简单的学校疫情上报系统自动化方法]([GitHub - joshefi/HealthExamination](https://github.com/joshefi/HealthExamination))
+## 简单的学校疫情上报系统自动化方法
 
 #### 一、制作原因
 
