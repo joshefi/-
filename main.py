@@ -20,7 +20,7 @@ with open('config.json', 'r+', encoding='utf-8') as f:
     config = json.load(f)
 url = "https://ujnpl.educationgroup.cn/jksb/tb/save"
 
-for i in range(5, 6):
+for i in range(0, len(config)):
     payload = config[i][
                   "id"] + '&ticket=&zx=%E6%98%AF&zx_select=%E6%98%AF&wxwz=%E5%B1%B1%E4%B8%9C%E7%9C%81%E7%83%9F%E5%8F' \
                           '%B0%E5%B8%82%E8%93%AC%E8%8E%B1%E5%8C%BA%E8%93%AC%E8%8E%B1%E9%98%81%E8%A1%97%E9%81%93%E8%93' \
