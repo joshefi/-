@@ -16,7 +16,7 @@ def notice(state, i):
 
 
 # 提交过程
-with open('Heathy.json', 'r+', encoding='utf-8') as f:
+with open('config.json', 'r+', encoding='utf-8') as f:
     config = json.load(f)
 url = "https://ujnpl.educationgroup.cn/jksb/tb/save"
 
